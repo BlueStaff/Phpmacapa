@@ -1,0 +1,36 @@
+#frame-a {
+  background-color: #008000;
+  color: #FFFF00;
+  height: 40vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu a {
+  color: #FFF;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.search-box {
+  text-align: center;
+}
+
+.search-box input[type="text"] {
+  padding: 5px;
+}
+
+.search-box button {
+  padding: 5px 10px;
+  background-color: #FCD116;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
